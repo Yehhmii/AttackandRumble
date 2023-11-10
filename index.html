@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attack and Rumble</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div id="hide"> 
+    <h1 class="text">Welcome to Attact and Rumble</h1>
+    <h2 class="text move">Select a Player</h2>
+    <div class="container" >
+        <div class="card firstdiv">
+            <img src="./images/Mr-Finn.png" alt="">
+            <h2>Mr-Finn</h2>
+            <h3>Powers</h3>
+            <ul>
+                <li>2 0f Hearts</li>
+                <li>Speed</li>
+                <li>Accuracy</li>
+                <li>   Weapons
+                    <ul>
+                        <li>Pistol</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="radio-container">
+                <input type="radio" name="characters" value="Mr-Finn" id="Mr-Finn" >
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/Trevor-Belmont.png" alt="">
+            <h2>Trevor-Belmont</h2>
+            <h3>Powers</h3>
+            <ul>
+                <li>Immense Combat prowess</li>
+                <li>Reflexes</li>
+                <li>Master Martial Artist</li>
+                <li>Superhuman Strenght</li>
+                <li>   Weapons
+                    <ul>
+                        <li>Sacred Whip</li>
+                        <li>Morning Star</li>
+                        <li>Knives</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="radio-container">
+                <input type="radio" name="characters" value="Trevor-Belmont" id="Trevor-Belmont">
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/Upper-Moon.png" alt="">
+            <h2>Upper-Moon</h2>
+            <h3>Powers</h3>
+            <ul>
+                <li>Clone</li>
+                <li>Blood Demon Art</li>
+                <li>Mimic Attributes</li>
+                <li>Weapons 
+                    <ul>
+                        <li>Demon staff</li>
+                        <li>Uchiwa Fan</li>
+                        <li>Jumonji Spear</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="radio-container">
+                <input type="radio" name="characters" value="Upper-Moon" id="Upper-Moon">
+            </div>
+        </div>
+        <div class="card">
+           <img src="./images/Nobara-Kugisaki.png" alt="">
+           <h2>Nobara-Kugisaki</h2>
+           <h3>Powers</h3>
+           <ul>
+            <li>Physical Damage</li>
+            <li>Cursed Energy Damage</li>
+            <li>Explosion</li>
+            <li>Sturcture Manipulation</li>
+            <li>Accuracy & Speed </li>
+            <li>Weapons
+                <ul>
+                    <li>Hammer</li>
+                    <li>Nails</li>
+                    <li>Straw Doll</li>
+                </ul>
+            </li>
+           </ul>
+           <div class="radio-container">
+            <input type="radio" name="characters" value="Nobara-Kugisaki" id="Nobara-Kugisaki">
+           </div>
+        </div>
+        <div class="card">
+           <img src="./images/Thorfinn.png" alt=""> 
+           <h2>Thorfinn</h2>
+           <h3>Powers</h3>
+           <ul>
+            <li>Speed</li>
+            <li>Combat Skills</li>
+            <li>Reflexes</li>
+            <li>Weapons
+                <ul>
+                    <li>Twin Swords</li>
+                    <li>Axe</li>
+                </ul>
+            </li>
+           </ul>
+           <div class="radio-container">
+            <input type="radio" name="characters" value="Thorfinn" id="Thorfinn">
+           </div>
+        </div>
+    </div>
+   </div>
+    <div>
+        <button class="btn" type="submit" id="selectPlayer" onclick="showDiv()">Play  </button>
+    </div>
+
+    <div id="show" style="display: none;">
+        <h2 class="text move">Fight!!!</h2>
+        <div class="container" >
+            <div class="card space">
+                <div id="sPlayersimg"></div>
+                <div id="sPlayers"></div>
+            </div>
+            <div class="card space">
+                <div id="results"></div>
+            </div>
+            <div id="loading" style="display: none;"><img src="./images/200w (1).webp" alt="" height="50px" width="50px"></div>
+            <div>
+                <button class="buttn" type="submit" id="fight">Fight</button>
+            </div>
+        </div>
+        <div>
+            <button class="btn" type="submit"><a href="./index.html">Play Again</a></button>
+        </div> 
+       
+        
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

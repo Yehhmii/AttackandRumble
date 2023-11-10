@@ -1,0 +1,99 @@
+
+.text{
+    text-align: center;
+}
+.move{
+    margin-bottom: 0;
+}
+.container{
+    background-color: aqua;
+    width: 75%;
+    height: 75vh;
+    position: relative;
+    top: 1.5rem;
+    left: 12%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    background-color: rgb(238, 238, 254);
+    width: 50%;
+    border: 1px solid #f0f0f0;
+    transition: transform 0.2s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card img{
+    height: 200px;
+    width: 200px;
+}
+.card h2{
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: 10px;
+}
+.card h3{
+    margin-top: 1px;
+    margin-bottom: 0;
+   margin-left: 10px;
+
+ }
+ .card ul{
+    margin-top: 9px;
+ }
+.radio-container {
+    text-align: center;
+    margin: 10px;
+}
+.radio-container input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 50%;    
+}
+.radio-container input[type="radio"]:checked{
+    background-color: #7b4a4a;
+}
+.btn{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.space{ 
+    display: flex; 
+    width: 400px;
+}
+#sPlayersimg{
+    width: 250px;
+}
+#sPlayers{
+    width: 100px;
+    align-self: center;
+    margin-right: 50px;
+}
+.buttn{
+    display: block;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    background-color: aqua;
+}
